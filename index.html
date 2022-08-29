@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veljko</title>
+    <meta name="title" content="Veljko">
+    <meta name="description" content="Ja pomažem vlasnicima malih preduzeća sa dobrim ukusom da imaju dobar web sajt">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rveljko.github.io/">
+    <meta property="og:title" content="Veljko">
+    <meta property="og:description" content="Ja pomažem vlasnicima malih preduzeća sa dobrim ukusom da imaju dobar web sajt">
+    <meta property="og:image" content="./images/meta-image.svg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rveljko.github.io/">
+    <meta property="twitter:title" content="Veljko">
+    <meta property="twitter:description" content="Ja pomažem vlasnicima malih preduzeća sa dobrim ukusom da imaju dobar web sajt">
+    <meta property="twitter:image" content="./images/meta-image.svg">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <div id="overlay" class="overlay invisible"></div>
+    <nav id="navigation" class="navigation padding padding--navigation">
+        <div class="container">
+            <div class="navigation__content">
+                <a href="#home" class="navigation__logo gradient">Veljko</a>
+                <div id="openMenu" class="navigation__menu">
+                    <span class="navigation__line"></span>
+                    <span class="navigation__line"></span>
+                    <span class="navigation__line"></span>
+                </div>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#home">Početna</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#projects">Projekti</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#about-me">O Meni</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="hero flex">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__heading">Zdravo,<br>ovde <span class="gradient">Veljko</span></h1>
+                    <p class="hero__description">Ja pomažem vlasnicima malih preduzeća sa dobrim ukusom da imaju dobar web sajt</p>
+                    <a href="#projects" class="hero__button button">Projekti</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sideBar" class="sidebar close">
+        <div class="container">
+            <i class="sidebar__right">
+                <div id="closeMenu" class="sidebar__menu padding padding--navigation">
+                    <span class="sidebar__line"></span>
+                    <span class="sidebar__line"></span>
+                </div>
+            </i>
+            <ul class="sidebar__links">
+                <li class="sidebar__item"><a class="sidebar__link" href="#home">Početna</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#projects">Projekti</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#about-me">O Meni</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="projects padding">
+        <div class="container">
+            <div id="projects" class="title">
+                <h2 class="title__heading gradient">Projekti</h2>
+            </div>
+            <div class="projects__content flex">
+                <div class="card flex" data-tilt data-tilt-max="1.7" data-tilt-glare data-tilt-max-glare="0.32">
+                    <div class="card__image">
+                        <a href="https://rveljko.github.io/aibank/dist/" class="card__link">
+                            <img loading="lazy" src="./images/project-1.png" alt="AI Bank Screenshots" class="card__picture">
+                        </a>
+                    </div>
+                    <div class="card__informations">
+                        <h3 class="card__heading">AI Bank</h3>
+                        <p class="card__description">Landing stranica za banku koja svojim korisnicima daje jasne izveštaje o njihovom stanju</p>
+                        <div class="card__buttons">
+                            <a href="https://github.com/rveljko/aibank" class="button button--secondary">Kod</a>
+                            <a href="https://rveljko.github.io/aibank/dist/" class="button button--secondary">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex" data-tilt data-tilt-max="1.7" data-tilt-glare data-tilt-max-glare="0.32">
+                    <div class="card__image">
+                        <a href="https://rveljko.github.io/rln/dist/" class="card__link">
+                            <img loading="lazy" src="./images/project-2.png" alt="RLN Screenshots" class="card__picture">
+                        </a>
+                    </div>
+                    <div class="card__informations">
+                        <h3 class="card__heading">RLN</h3>
+                        <p class="card__description">Landing stranica za aplikaciju koja pomaže svojim korisnicima da prate njihova dnevna dostignuća</p>
+                        <div class="card__buttons">
+                            <a href="https://github.com/rveljko/rln" class="button button--secondary">Kod</a>
+                            <a href="https://rveljko.github.io/rln/dist/" class="button button--secondary">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex" data-tilt data-tilt-max="1.7" data-tilt-glare data-tilt-max-glare="0.32">
+                    <div class="card__image">
+                        <a href="https://rveljko.github.io/leail/dist/" class="card__link">
+                            <img loading="lazy" src="./images/project-3.png" alt="Leail Screenshots" class="card__picture">
+                        </a>
+                    </div>
+                    <div class="card__informations">
+                        <h3 class="card__heading">Leail</h3>
+                        <p class="card__description">Landing stranica za kompaniju koja se bavi proizvodnjom raznih vrsta ograda od raznih materijala</p>
+                        <div class="card__buttons">
+                            <a href="https://github.com/rveljko/leail" class="button button--secondary">Kod</a>
+                            <a href="https://rveljko.github.io/leail/dist/" class="button button--secondary">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-me padding">
+        <div id="about-me" class="title">
+            <h2 class="title__heading gradient">O Meni</h2>
+        </div>
+        <div class="container">
+            <div class="about-me__content flex">
+                <div class="about-me__informations">
+                    <p class="about-me__description">Zdravo opet, ja sam Veljko. Bavim se izradom web sajtova i pomažem vlasnicima malih preduzeća na način koji rešava probleme koji sprečavaju njihove potencijalne korisnike da postanu pravi korisnici.</p>
+                    <p class="about-me__description">Trudim se da svoje znanje podignem na novi nivo tako što sebi zadajem izazove koji me teraju da razmišljam van okvira.</p>
+                    <p class="about-me__description">Volim da radim na način na koji svojim klijentima uvek dajem jasne i transparentne izveštaje o radu i predloge koji mogu podignuti preduzeće na viši nivo.</p>
+                </div>
+                <div class="about-me__questions">
+                    <h3 class="about-me__title">Česta pitanja</h3>
+                    <div class="accordion">
+                        <div class="accordion__content">
+                            <div class="accordion__question flex">
+                                <p class="accordion__heading">Da li naplaćuješ po satu ili po projektu?</p>
+                                <img src="./images/arrow.svg" alt="Arrow Icon" class="accordion__icon">
+                            </div>
+                            <div class="accordion__answer">
+                                <p class="accordion__description">Preferiram da naplaćujem po projektu, u suprotnom imam osećaj da samo gledam na sat umesto da uradim nešto produktivno.</p>
+                            </div>
+                        </div>
+                        <div class="accordion__content">
+                            <div class="accordion__question flex">
+                                <p class="accordion__heading">Koliko dugo traje izrada web sajta?</p>
+                                <img src="./images/arrow.svg" alt="Arrow Icon" class="accordion__icon">
+                            </div>
+                            <div class="accordion__answer">
+                                <p class="accordion__description">Izrada web sajta zavisi od veličine projekta. U proseku izrada jedne Landing stranice može trajati oko 2 nedelje, dok neki veći web sajtovi sa više stranica mogu trajata i po par nedelja.</p>
+                            </div>
+                        </div>
+                        <div class="accordion__content">
+                            <div class="accordion__question flex">
+                                <p class="accordion__heading">Šta možemo dobiti od tebe na kraju projekta?</p>
+                                <img src="./images/arrow.svg" alt="Arrow Icon" class="accordion__icon">
+                            </div>
+                            <div class="accordion__answer">
+                                <p class="accordion__description">Na kraju svakog projekta klijentu pošaljem Figma file u kome se nalaze design, wireframe, boje i ostale stvari. A naravno i kod sajta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact padding">
+        <div class="container">
+            <div id="contact" class="title">
+                <h2 class="title__heading gradient">Kontakt</h2>
+            </div>
+            <div class="contact__content">
+                <a href="mailto:radisavljevicveljko123@gmail.com" class="contact__link">radisavljevicveljko123@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
